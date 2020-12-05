@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  color: aliceblue;
+  padding: 10px 5px;
+}
+
+.search {
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.search form {
+  flex: 1;
+}
+
+.search form input[type="text"] {
+  outline: none;
+  border: none;
+}
+
+/* .search form input[type="text"]:hover {
+  transition: transform 0.3s;
+  transform: translate(-25px, -25px);
+  box-shadow: 2px 4px 3px rgb(241, 177, 177);
+} */
+
+.fixed_link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80px;
+  background-color: black;
+  opacity: 0.5;
+  padding: 5px;
+  text-decoration: none;
+  transition-property: width;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+
+.fixed_link a {
+  color: white;
+  display: block;
+}
+
+.fixed_link:hover {
+  width: 200px;
+}
+
+.spinner {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  /* text-align: center; */
+  height: 100px;
+  width: 100px;
+}
+
+.kingTag {
+  width: 712px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  margin-left: 0;
+}
+
+.letter {
+  transition: margin-left 200ms ease-in;
+}
+
+.letter:hover {
+  margin-left: 50px;
+}
+
+.kingTag:nth-of-type(1) {
+  transition-timing-function: ease-in;
+}
+.kingTag:nth-of-type(2) {
+  transition-timing-function: ease-out;
+}
+.kingTag:nth-of-type(3) {
+  transition-timing-function: ease-in;
+}
+.kingTag:nth-of-type(4) {
+  transition-timing-function: ease-out;
+}
+.kingTag:nth-of-type(5) {
+  transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+}
+.kingTag:nth-of-type(6) {
+  transition-timing-function: ease-in;
+}
+.kingTag:nth-of-type(7) {
+  transition-timing-function: ease-in;
+}
+.kingTag:nth-of-type(8) {
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.kingTag:nth-of-type(9) {
+  transition-timing-function: ease-in;
+}
+.kingTag:nth-of-type(10) {
+  transition-timing-function: ease-in-out;
+}
